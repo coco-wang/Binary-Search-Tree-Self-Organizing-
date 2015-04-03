@@ -1,0 +1,9 @@
+The worst-case time complexity of function height(BSTNode*t) is 
+Big-O(N).
+
+The worst-case occurs when all the nodes are in the right/left side of 
+the root. So in order to determine the height, we have to transverse 
+every node in the tree. And the time complexity is O(N).
+
+But if the nodes are balanced distributed, we can achieve the complexity 
+of O(log N).
